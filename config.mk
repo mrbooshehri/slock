@@ -11,13 +11,13 @@ X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib
 
 # Uncomment for message patch / MESSAGE_PATCH
-#XINERAMA=-lXinerama
+XINERAMA=-lXinerama
 
 # Uncomment for pam auth patch / PAMAUTH_PATCH
 #PAM=-lpam
 
 # Uncomment for blur pixelated screen patch / BLUR_PIXELATED_SCREEN_PATCH
-#IMLIB=-lImlib2
+IMLIB=-lImlib2
 
 # includes and libs
 INCS = -I. -I/usr/include -I${X11INC}
