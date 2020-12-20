@@ -21,7 +21,7 @@ ResourcePref resources[] = {
 };
 
 /* lock screen opacity */
-static const float alpha = 0.8;
+static const float alpha = 0.95;
 
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
@@ -29,7 +29,7 @@ static const int failonclear = 1;
 /* Enable blur */
 #define BLUR
 /* Set blur radius */
-static const int blurRadius=5;
+static const int blurRadius=10;
 /* Enable Pixelation */
 //#define PIXELATION
 /* Set pixelation radius */
@@ -55,7 +55,7 @@ static const char * message = "Enter password to unlock";
 static const char * text_color = "#ffffff";
 
 /* text size (must be a valid size) */
-static const char * font_name = "20x10";
+static const char * font_name = "9x15";
 
 
 /* time in seconds to cancel lock with mouse movement */
