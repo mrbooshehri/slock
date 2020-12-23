@@ -55,7 +55,7 @@ static const char * message = "Enter password to unlock";
 static const char * text_color = "#ffffff";
 
 /* text size (must be a valid size) */
-static const char * font_name = "9x15";
+static const char * font_name = "10x20";
 
 
 /* time in seconds to cancel lock with mouse movement */
